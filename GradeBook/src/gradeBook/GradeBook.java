@@ -55,9 +55,9 @@ public class GradeBook {
 	
 	//gets the average grade for each person in the gradebook
 	public static double getAverageGrade (String[] currentGradesArray) {
-		int totalGrade = 0;
+		double totalGrade = 0;
 		for (int i=0;i<currentGradesArray.length;i++) {
-			totalGrade = totalGrade + Integer.parseInt(currentGradesArray[i]);
+			totalGrade = totalGrade + Double.parseDouble(currentGradesArray[i]);
 		}
 		double avgGrade = (totalGrade/currentGradesArray.length);
 		
