@@ -33,7 +33,7 @@ public class CarLotProgram {
 		carLot2.addVehicle(c2);
 		carLot2.addVehicle(c3);
 		
-		CarLot carLot3 = new CarLot("My Second Car Lot", listofVehicles);
+		CarLot carLot3 = new CarLot("My Third Car Lot", listofVehicles);
 		carLot3.addVehicle(t1);
 		carLot3.addVehicle(t2);
 		carLot3.addVehicle(c5);
